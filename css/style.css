@@ -1,0 +1,86 @@
+.container {
+  width: 700px;
+  margin: 10px auto;
+  background: #DDD;
+  min-height: 350px;
+  padding: 0 15px;
+}
+
+.container h2{
+  color: rgb(48,84,139);
+}
+
+P{
+  font-family: serif;
+  font-size: small;
+  color: gray;
+}
+
+input[type='text'], input[type='password'], input[type='email'] {
+  width: 90%;
+  padding: 4px;
+  border-radius: 3px;
+  float: left;
+  border-color: red;
+  border-style: solid;
+}
+
+.login-container {
+  background: rgba(43,67,101,1);
+  color: white;
+  min-height: 196px;
+  padding: 0px 15px;
+}
+
+.login-container form.margin-15{
+  margin: 15px 0;
+}
+
+.login-container input[type='text'], .login-container input[type='password'], .login-container input[type='email'] {
+  border: none;
+}
+
+.login-container input[type='submit'] {
+  display: inline;
+  float: right;
+  border-color: rgb(241,171,25);
+}
+
+input[type= 'submit'] {
+  width: 24%;
+  padding: 5px;
+  border-color: blue;
+  display: block;
+  margin: auto;
+  margin-right: 7%;
+  border-style: solid;
+}
+
+.col-md-6 {
+  width: calc(50% - 30px);
+  float: left;
+  padding: 0 15px;
+}
+
+.gray-text {
+  color: gray;
+}
+
+.blue-text {
+  color: rgb(48,84,139);
+}
+
+.margin-5 {
+  margin: 5px auto;
+}
+
+.forgot-password {
+  clear: both;
+  margin-right: 7%;
+  margin-top: 15px;
+}
+.forgot-password a {
+  font-size: small;
+  float: right;
+  color: #FFF;
+}
